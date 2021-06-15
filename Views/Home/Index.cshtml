@@ -1,0 +1,21 @@
+﻿@model ActioItemWebAPI.Models.NumberDBEntities
+
+@{ 
+    ViewBag.Title = "GetJsonDataModel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GetJsonDataModel</h2>
+
+@{ 
+    <table>
+        <tr>
+            <th>N</th>
+            <th>Series</th>
+        </tr>
+        <tr>
+            <th>@Model.Number</th>
+            <th>@Model.Series</th>
+        </tr>
+    </table>
+}
